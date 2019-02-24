@@ -1,5 +1,18 @@
-from app.lib import  *
+from lib import zodiac_sign_Calculation
 
-sing = zodiac_sign_Calculation(3,22)
 
-link = https://google.gik-team.com/?q=%D0%BE%D0%B2%D0%B5%D0%BD+%D0%B3%D0%BE%D1%80%D0%BE%D1%81%D0%BA%D0%BE%D0%BF
+date = '21.01.1994'
+date = date.split('.')
+# print(date)
+
+mouth = int(date[1])
+day = int(date[0])
+sign = zodiac_sign_Calculation(mouth, day)
+print(sign)
+
+link_part1 = "www.google.ru/search?newwindow=1&ei=HpByXMboM_LOrgT9xZyoAQ&q=гороскоп+"
+link_part2 = "&oq=гороскоп+"
+link_part3 = "&gs_l=psy-ab.3..0i203l10.5721.6984..7540...0.0..0.143.888.2j6......0....1..gws-wiz.......0i71.xiZCPVOXPUg"
+
+link = link_part1 + sign + link_part2 + sign + link_part3
+print("узнайте свой гороскоп по ссылке", link)
