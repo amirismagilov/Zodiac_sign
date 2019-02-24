@@ -1,2 +1,2 @@
 [![Build Status](https://travis-ci.com/amirismagilov/Zodiac_sign.svg?branch=master)](https://travis-ci.com/amirismagilov/Zodiac_sign)
-x
+[![codecov](https://codecov.io/gh/amirismagilov/Zodiac_sign/branch/master/graph/badge.svg)](https://codecov.io/gh/amirismagilov/Zodiac_sign)
