@@ -1,7 +1,7 @@
 from lib import zodiac_sign_calculation
 
 
-date = '21.01.1994'
+date = '21.13.1994'
 date = date.split('.')
 # print(date)
 

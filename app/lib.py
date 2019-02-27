@@ -5,9 +5,12 @@ def zodiac_sign_calculation(mouth, day):
 
     >>> zodiac_sign_calculation(1, 21)
     'водолей'
+
+    >>> zodiac_sign_calculation(111, 21)
+    'Введите корретные значение'
     """
-    if mouth > 12 and day > 31:
-        return print("Введите корретные значение")
+    if mouth > 12 or day > 31:
+        return "Введите корретные значение"
 
     if mouth == 3 and day >= 21 or mouth == 4 and day <= 21:
         sign = "овен"
