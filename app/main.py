@@ -1,4 +1,4 @@
-from lib import zodiac_sign_Calculation
+from lib import zodiac_sign_calculation
 
 
 date = '21.01.1994'
@@ -7,7 +7,7 @@ date = date.split('.')
 
 mouth = int(date[1])
 day = int(date[0])
-sign = zodiac_sign_Calculation(mouth, day)
+sign = zodiac_sign_calculation(mouth, day)
 print(sign)
 
 link_part1 = "www.google.ru/search?newwindow=1&ei=HpByXMboM_LOrgT9xZyoAQ&q=гороскоп+"

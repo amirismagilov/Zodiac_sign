@@ -1,9 +1,9 @@
-def zodiac_sign_Calculation(mouth, day):
+def zodiac_sign_calculation(mouth, day):
     """
-    >>> zodiac_sign_Calculation(3,22)
+    >>> zodiac_sign_calculation(3,22)
     'овен'
 
-    >>> zodiac_sign_Calculation(1, 21)
+    >>> zodiac_sign_calculation(1, 21)
     'водолей'
     """
     if mouth > 12 and day > 31:
